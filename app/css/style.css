@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  z-index: 1;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  font-size: 32px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+main section {
+  width: 50%;
+  padding: 100px 0;
+  height: 100vh;
+}
+main section p {
+  padding: 5%;
+  background: #000;
+}
+main section:nth-child(2) {
+  margin-left: 50%;
+}
+main section:nth-child(4) {
+  margin-left: 50%;
+}
